@@ -1,12 +1,63 @@
 <html>
 	<head>
 		<title>Emoticon App</title>
+		<!--source of emoji images: http://kawaiidarkcore.deviantart.com/art/All-Emojis-Google-PNG-524290682 -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+		<style>
+			body {
+				background-color: #701BE1;
+			}
+			#container {
+				border: 5px solid white;
+				margin: auto;
+				font-family: 'Rubik Mono One', sans-serif;
+				max-width: 70%;
+				max-height: 100%
+			}
+			#main {
+				height: 60%;
+				overflow-y: scroll;
+				padding: 20px;
+				background-color: #eee;
+			}
+			#emoji-list {
+				margin-top: 20px;
+				height: 40%;
+				text-align: center;
+			}
+			#emoji-list img{
+				width: 8%;
+			}
+		</style>
 	</head>
 	<body>
 
 	<div id="container">
-	<div id="main"></div>
 
+	<h1 style="text-align: center; color: white">Emoji Chat App</h1>
+	<div id="main">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div id="emoji-list"> 
+	<img class="emoji" src="emojis/happy.png">	
+	<img class="emoji" src="emojis/kiss.png">
+	<img class="emoji" src="emojis/heart_eyes.png">
+	<img class="emoji" src="emojis/smirk.png">
+	<img class="emoji" src="emojis/sunglasses.png">
+	<img class="emoji" src="emojis/angry.png">
+	<img class="emoji" src="emojis/sad.png">
+	<img class="emoji" src="emojis/crying.png">
+	<img class="emoji" src="emojis/confused.png">
+	<img class="emoji" src="emojis/tired.png">
+	</div>
+
+	
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.min.js"></script>
@@ -15,7 +66,7 @@
 
 
 	<script>
-	
+		
 
 
 
